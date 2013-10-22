@@ -2,7 +2,7 @@ name: "Landon Grindheim"
 description: "Landon's Jekyll Blog"
 
 url: "http://localhost:4000"
-baseurl: jekyllblog
+baseurl: /jekyllblog
 
 paginate: 10
 
