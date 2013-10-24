@@ -1,5 +1,8 @@
-name: "Landon Grindheim"
+name: Landon's Jekyll Blog
 description: "Landon's Jekyll Blog"
+pygments: true
+markdown: redcarpet
+
 
 url: "http://localhost:4000"
 baseurl: /jekyllblog
