@@ -21,25 +21,18 @@
  
     <body>
 
-        <div class="site">
+          {{ content }}
+
+          <div class="footer">
+            <div class="container">
+            </div>
           <div class="header">
             <h1 class="title"><a href="/">{{ site.name }}</a></h1>
             <a class="extra" href="{{ site.baseurl }}/">home</a>
           </div>
-
-          {{ content }}
-
-          <div class="footer">
-            <div class="contact">
-            </div>
-            <div class="contact">
-              <p>
-                <a href="https://github.com/yourusername">github.com/landongrindheim</a><br />
-                <a href="https://twitter.com/yourusername">twitter.com/landongrindheim</a><br />
-              </p>
-            </div>
           </div>
         </div>
 
     </body>
 </html>
+
