@@ -7,6 +7,6 @@ baseurl: /jekyllblog
 
 paginate: 10
 
-markdown: rdiscount
+markdown: redcarpet
 permalink: pretty
 pygments: true

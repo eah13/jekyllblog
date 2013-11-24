@@ -18,10 +18,11 @@
 	<!-- Boostrap theme-->
         <link rel="stylesheet" href="{{ site.baseurl }}/css/bootstrap.css">
         <link rel="stylesheet" href="{{ site.baseurl }}/css/sticky-footer-navbar.css">
+        <link rel="shortcut icon" href="{{ site.baseurl }}/cheney.ico" > 
           <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
           <!--[if lt IE 9]>
-          <script src="../bootstrap/assets/js/html5shiv.js"></script>
-          <script src="../bootstrap/assets/js/respond.min.js"></script>
+          <script src="{{ site.baseurl }}/bootstrap/assets/js/html5shiv.js"></script>
+          <script src="{{ site.baseurl }}/bootstrap/assets/js/respond.min.js"></script>
           <![endif]-->
     </head>
  
@@ -39,11 +40,11 @@
                   <span class="icon-bar"></span>
                   <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">Landon's Site</a>
+                <a class="navbar-brand" href="{{ site.baseurl }}/">Landon's Site</a>
               </div>
               <div class="collapse navbar-collapse">
                 <ul class="nav navbar-nav">
-                  <li class="active"><a href="{{ site.baseurl }}">Home</a></li>
+                  <li class="active"><a href="#">Something</a></li>
                   <li><a href="{{ site.baseurl }}/about.html">About</a></li>
                   <li><a href="{{ site.baseurl }}/contact.html">Contact</a></li>
                   <li class="dropdown">
