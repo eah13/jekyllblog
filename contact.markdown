@@ -3,6 +3,6 @@ layout: default
 title: "Contact Landon"
 ---
 
-##Contact Info
+##Contact
 
 #landon dot grindheim [at] gmail dot com.

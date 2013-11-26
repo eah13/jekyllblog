@@ -5,8 +5,9 @@ description: "Landon's Jekyll Blog"
 url: 
 baseurl: /jekyllblog
 
-paginate: 10
+paginate: 15
+paginate_path: "jekyllblog/page:num"
 
 markdown: redcarpet
-permalink: pretty
+permalink: date
 pygments: true
